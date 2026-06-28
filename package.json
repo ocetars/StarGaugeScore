@@ -1,0 +1,27 @@
+{
+  "name": "stargauge-score",
+  "version": "1.0.0",
+  "description": "星练度评分策略：生成评分配置（score.json）与参考评分器",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "score.json",
+    "data"
+  ],
+  "scripts": {
+    "generate": "tsx src/generate.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}

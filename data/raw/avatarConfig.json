@@ -1,0 +1,548 @@
+[
+  {
+    "id": "1001",
+    "name": "三月七",
+    "path": "Knight",
+    "damageType": "Ice"
+  },
+  {
+    "id": "1002",
+    "name": "丹恒",
+    "path": "Rogue",
+    "damageType": "Wind"
+  },
+  {
+    "id": "1003",
+    "name": "姬子",
+    "path": "Mage",
+    "damageType": "Fire"
+  },
+  {
+    "id": "1004",
+    "name": "瓦尔特",
+    "path": "Warlock",
+    "damageType": "Imaginary"
+  },
+  {
+    "id": "1005",
+    "name": "卡芙卡",
+    "path": "Warlock",
+    "damageType": "Thunder"
+  },
+  {
+    "id": "1006",
+    "name": "银狼",
+    "path": "Warlock",
+    "damageType": "Quantum"
+  },
+  {
+    "id": "1008",
+    "name": "阿兰",
+    "path": "Warrior",
+    "damageType": "Thunder"
+  },
+  {
+    "id": "1009",
+    "name": "艾丝妲",
+    "path": "Shaman",
+    "damageType": "Fire"
+  },
+  {
+    "id": "1013",
+    "name": "黑塔",
+    "path": "Mage",
+    "damageType": "Ice"
+  },
+  {
+    "id": "1014",
+    "name": "Saber",
+    "path": "Warrior",
+    "damageType": "Wind"
+  },
+  {
+    "id": "1015",
+    "name": "Archer",
+    "path": "Rogue",
+    "damageType": "Quantum"
+  },
+  {
+    "id": "1101",
+    "name": "布洛妮娅",
+    "path": "Shaman",
+    "damageType": "Wind"
+  },
+  {
+    "id": "1102",
+    "name": "希儿",
+    "path": "Rogue",
+    "damageType": "Quantum"
+  },
+  {
+    "id": "1103",
+    "name": "希露瓦",
+    "path": "Mage",
+    "damageType": "Thunder"
+  },
+  {
+    "id": "1104",
+    "name": "杰帕德",
+    "path": "Knight",
+    "damageType": "Ice"
+  },
+  {
+    "id": "1105",
+    "name": "娜塔莎",
+    "path": "Priest",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1106",
+    "name": "佩拉",
+    "path": "Warlock",
+    "damageType": "Ice"
+  },
+  {
+    "id": "1107",
+    "name": "克拉拉",
+    "path": "Warrior",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1108",
+    "name": "桑博",
+    "path": "Warlock",
+    "damageType": "Wind"
+  },
+  {
+    "id": "1109",
+    "name": "虎克",
+    "path": "Warrior",
+    "damageType": "Fire"
+  },
+  {
+    "id": "1110",
+    "name": "玲可",
+    "path": "Priest",
+    "damageType": "Quantum"
+  },
+  {
+    "id": "1111",
+    "name": "卢卡",
+    "path": "Warlock",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1112",
+    "name": "托帕&账账",
+    "path": "Rogue",
+    "damageType": "Fire"
+  },
+  {
+    "id": "1201",
+    "name": "青雀",
+    "path": "Mage",
+    "damageType": "Quantum"
+  },
+  {
+    "id": "1202",
+    "name": "停云",
+    "path": "Shaman",
+    "damageType": "Thunder"
+  },
+  {
+    "id": "1203",
+    "name": "罗刹",
+    "path": "Priest",
+    "damageType": "Imaginary"
+  },
+  {
+    "id": "1204",
+    "name": "景元",
+    "path": "Mage",
+    "damageType": "Thunder"
+  },
+  {
+    "id": "1205",
+    "name": "刃",
+    "path": "Warrior",
+    "damageType": "Wind"
+  },
+  {
+    "id": "1206",
+    "name": "素裳",
+    "path": "Rogue",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1207",
+    "name": "驭空",
+    "path": "Shaman",
+    "damageType": "Imaginary"
+  },
+  {
+    "id": "1208",
+    "name": "符玄",
+    "path": "Knight",
+    "damageType": "Quantum"
+  },
+  {
+    "id": "1209",
+    "name": "彦卿",
+    "path": "Rogue",
+    "damageType": "Ice"
+  },
+  {
+    "id": "1210",
+    "name": "桂乃芬",
+    "path": "Warlock",
+    "damageType": "Fire"
+  },
+  {
+    "id": "1211",
+    "name": "白露",
+    "path": "Priest",
+    "damageType": "Thunder"
+  },
+  {
+    "id": "1212",
+    "name": "镜流",
+    "path": "Warrior",
+    "damageType": "Ice"
+  },
+  {
+    "id": "1213",
+    "name": "丹恒•饮月",
+    "path": "Warrior",
+    "damageType": "Imaginary"
+  },
+  {
+    "id": "1214",
+    "name": "雪衣",
+    "path": "Warrior",
+    "damageType": "Quantum"
+  },
+  {
+    "id": "1215",
+    "name": "寒鸦",
+    "path": "Shaman",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1217",
+    "name": "藿藿",
+    "path": "Priest",
+    "damageType": "Wind"
+  },
+  {
+    "id": "1218",
+    "name": "椒丘",
+    "path": "Warlock",
+    "damageType": "Fire"
+  },
+  {
+    "id": "1220",
+    "name": "飞霄",
+    "path": "Rogue",
+    "damageType": "Wind"
+  },
+  {
+    "id": "1221",
+    "name": "云璃",
+    "path": "Warrior",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1222",
+    "name": "灵砂",
+    "path": "Priest",
+    "damageType": "Fire"
+  },
+  {
+    "id": "1223",
+    "name": "貊泽",
+    "path": "Rogue",
+    "damageType": "Thunder"
+  },
+  {
+    "id": "1224",
+    "name": "三月七",
+    "path": "Rogue",
+    "damageType": "Imaginary"
+  },
+  {
+    "id": "1225",
+    "name": "忘归人",
+    "path": "Warlock",
+    "damageType": "Fire"
+  },
+  {
+    "id": "1301",
+    "name": "加拉赫",
+    "path": "Priest",
+    "damageType": "Fire"
+  },
+  {
+    "id": "1302",
+    "name": "银枝",
+    "path": "Mage",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1303",
+    "name": "阮•梅",
+    "path": "Shaman",
+    "damageType": "Ice"
+  },
+  {
+    "id": "1304",
+    "name": "砂金",
+    "path": "Knight",
+    "damageType": "Imaginary"
+  },
+  {
+    "id": "1305",
+    "name": "真理医生",
+    "path": "Rogue",
+    "damageType": "Imaginary"
+  },
+  {
+    "id": "1306",
+    "name": "花火",
+    "path": "Shaman",
+    "damageType": "Quantum"
+  },
+  {
+    "id": "1307",
+    "name": "黑天鹅",
+    "path": "Warlock",
+    "damageType": "Wind"
+  },
+  {
+    "id": "1308",
+    "name": "黄泉",
+    "path": "Warlock",
+    "damageType": "Thunder"
+  },
+  {
+    "id": "1309",
+    "name": "知更鸟",
+    "path": "Shaman",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1310",
+    "name": "流萤",
+    "path": "Warrior",
+    "damageType": "Fire"
+  },
+  {
+    "id": "1312",
+    "name": "米沙",
+    "path": "Warrior",
+    "damageType": "Ice"
+  },
+  {
+    "id": "1313",
+    "name": "星期日",
+    "path": "Shaman",
+    "damageType": "Imaginary"
+  },
+  {
+    "id": "1314",
+    "name": "翡翠",
+    "path": "Mage",
+    "damageType": "Quantum"
+  },
+  {
+    "id": "1315",
+    "name": "波提欧",
+    "path": "Rogue",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1317",
+    "name": "乱破",
+    "path": "Mage",
+    "damageType": "Imaginary"
+  },
+  {
+    "id": "1321",
+    "name": "大丽花",
+    "path": "Warlock",
+    "damageType": "Fire"
+  },
+  {
+    "id": "1401",
+    "name": "大黑塔",
+    "path": "Mage",
+    "damageType": "Ice"
+  },
+  {
+    "id": "1402",
+    "name": "阿格莱雅",
+    "path": "Memory",
+    "damageType": "Thunder"
+  },
+  {
+    "id": "1403",
+    "name": "缇宝",
+    "path": "Shaman",
+    "damageType": "Quantum"
+  },
+  {
+    "id": "1404",
+    "name": "万敌",
+    "path": "Warrior",
+    "damageType": "Imaginary"
+  },
+  {
+    "id": "1405",
+    "name": "那刻夏",
+    "path": "Mage",
+    "damageType": "Wind"
+  },
+  {
+    "id": "1406",
+    "name": "赛飞儿",
+    "path": "Warlock",
+    "damageType": "Quantum"
+  },
+  {
+    "id": "1407",
+    "name": "遐蝶",
+    "path": "Memory",
+    "damageType": "Quantum"
+  },
+  {
+    "id": "1408",
+    "name": "白厄",
+    "path": "Warrior",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1409",
+    "name": "风堇",
+    "path": "Memory",
+    "damageType": "Wind"
+  },
+  {
+    "id": "1410",
+    "name": "海瑟音",
+    "path": "Warlock",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1412",
+    "name": "刻律德菈",
+    "path": "Shaman",
+    "damageType": "Wind"
+  },
+  {
+    "id": "1413",
+    "name": "长夜月",
+    "path": "Memory",
+    "damageType": "Ice"
+  },
+  {
+    "id": "1414",
+    "name": "丹恒•腾荒",
+    "path": "Knight",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1415",
+    "name": "昔涟",
+    "path": "Memory",
+    "damageType": "Ice"
+  },
+  {
+    "id": "1501",
+    "name": "火花",
+    "path": "Elation",
+    "damageType": "Fire"
+  },
+  {
+    "id": "1502",
+    "name": "爻光",
+    "path": "Elation",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1504",
+    "name": "不死途",
+    "path": "Rogue",
+    "damageType": "Thunder"
+  },
+  {
+    "id": "1505",
+    "name": "绯英",
+    "path": "Elation",
+    "damageType": "Physical"
+  },
+  {
+    "id": "1506",
+    "name": "银狼LV.999",
+    "path": "Elation",
+    "damageType": "Imaginary"
+  },
+  {
+    "id": "8001",
+    "name": "{NICKNAME}",
+    "path": "Warrior",
+    "damageType": "Physical"
+  },
+  {
+    "id": "8002",
+    "name": "{NICKNAME}",
+    "path": "Warrior",
+    "damageType": "Physical"
+  },
+  {
+    "id": "8003",
+    "name": "{NICKNAME}",
+    "path": "Knight",
+    "damageType": "Fire"
+  },
+  {
+    "id": "8004",
+    "name": "{NICKNAME}",
+    "path": "Knight",
+    "damageType": "Fire"
+  },
+  {
+    "id": "8005",
+    "name": "{NICKNAME}",
+    "path": "Shaman",
+    "damageType": "Imaginary"
+  },
+  {
+    "id": "8006",
+    "name": "{NICKNAME}",
+    "path": "Shaman",
+    "damageType": "Imaginary"
+  },
+  {
+    "id": "8007",
+    "name": "{NICKNAME}",
+    "path": "Memory",
+    "damageType": "Ice"
+  },
+  {
+    "id": "8008",
+    "name": "{NICKNAME}",
+    "path": "Memory",
+    "damageType": "Ice"
+  },
+  {
+    "id": "8009",
+    "name": "{NICKNAME}",
+    "path": "Elation",
+    "damageType": "Thunder"
+  },
+  {
+    "id": "8010",
+    "name": "{NICKNAME}",
+    "path": "Elation",
+    "damageType": "Thunder"
+  }
+]
