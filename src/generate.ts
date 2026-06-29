@@ -125,8 +125,7 @@ function fillMainWeight(
     CriticalChanceBase: g("CriticalChance"),
     CriticalDamageBase: g("CriticalDamage"),
     HealRatioBase: g("HealRatio"),
-    // FIXME: 此处取 HP 疑为历史笔误（应为 StatusProbability）；修正会改变分数，待确认后再改
-    StatusProbabilityBase: g("HP"),
+    StatusProbabilityBase: g("StatusProbability"),
   };
   config.mainWeight["4"] = {
     HPAddedRatio: g("HP"),
