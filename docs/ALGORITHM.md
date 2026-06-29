@@ -7,9 +7,9 @@
 
 每个角色由 `score.json` 提供三样原材料（生成方式见 [data/README 关系链](../README.md)）：
 
-- `main[部位][词条] ∈ [0,1]`：该部位主词条的价值，1 为最优、0 为无价值。
-- `weight[词条] ∈ [0,1]`：该副词条的价值。
-- `maxV2[部位]`：该部位副词条的理论上限，作评分分母。
+- `mainWeight[部位][词条] ∈ [0,1]`：该部位主词条的价值，1 为最优、0 为无价值。
+- `subWeight[词条] ∈ [0,1]`：该副词条的价值。
+- `subMax[部位]`：该部位副词条的理论上限，作评分分母。
 
 部位编号：`1` 头 / `2` 手 / `3` 身 / `4` 脚 / `5` 位面球 / `6` 连结绳。
 词条 key 用游戏内部命名（如 `CriticalChanceBase`、`AttackAddedRatio`、`HPDelta`）。
@@ -17,15 +17,15 @@
 ## 单件遗器
 
 ```
-mainScore = clamp01((level + 1) / 16) × main[部位][主词条]
-subRaw    = Σ over 副词条  count × weight[词条]
-subScore  = min(1, subRaw / maxV2[部位])
+mainScore = clamp01((level + 1) / 16) × mainWeight[部位][主词条]
+subRaw    = Σ over 副词条  count × subWeight[词条]
+subScore  = min(1, subRaw / subMax[部位])
 遗器分     = clamp01( W_MAIN × mainScore + W_SUB × subScore )
 ```
 
 - `level` 为主词条强化等级 0~15，满级 `(15+1)/16 = 1`。
 - `count` 为副词条强化次数（含初始档，与 Enka/SDK 的 count 同义）。
-- 权重为 0 的词条不计分；`subScore` 对 maxV2 归一并封顶到 1。
+- 权重为 0 的词条不计分；`subScore` 对 subMax 归一并封顶到 1。
 
 ### 合成权重
 
@@ -51,7 +51,7 @@ W_SUB  = 0.65
 | 环节 | 历史 | v1 | 原因 |
 | --- | --- | --- | --- |
 | 遗器分合成 | `sqrt(0.5×main + 0.5×sub)` | `0.35×main + 0.65×sub` | 去掉开方，分数线性反映真实价值，高分段区分度更高；主词条降为门槛 |
-| 原材料 `main/weight/maxV2` | 不变 | 不变 | 仅改合成，不动生成 |
+| 评分配置字段 | `main / weight / maxV2`，外加废弃的 `max` | `mainWeight / subWeight / subMax` | 去掉 v1/v2 与遗留命名，统一清晰；语义不变 |
 
 > 评级阈值（B…GODLIKE 等）随本算法整体下移、需重新标定一次；标定后是一套全局固定阈值。
 > 不追求各角色评级比例一致——难养成的角色分数本就该偏低，这是真实信息。详见 [BACKLOG](./BACKLOG.md)。

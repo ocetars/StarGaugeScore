@@ -9,21 +9,22 @@
 export type PartId = "1" | "2" | "3" | "4" | "5" | "6";
 
 /** 副词条价值表：词条 key -> 权重（0~1） */
-export type WeightMap = Record<string, number>;
+export type SubWeightMap = Record<string, number>;
 
 /** 主词条价值表：部位 -> (词条 key -> 权重 0~1) */
-export type MainMap = Record<PartId, Record<string, number>>;
+export type MainWeightMap = Record<PartId, Record<string, number>>;
 
 /** 每部位的副词条理论上限（评分分母） */
-export type MaxV2Map = Record<PartId, number>;
+export type SubMaxMap = Record<PartId, number>;
 
 /** 单角色评分配置（score.json 的 value） */
 export interface ScoreConfigItem {
-  main: MainMap;
-  weight: WeightMap;
-  /** 旧算法分母，保留兼容，新算法不使用 */
-  max: number;
-  maxV2: MaxV2Map;
+  /** 主词条价值，按部位 */
+  mainWeight: MainWeightMap;
+  /** 副词条价值，全部位共用 */
+  subWeight: SubWeightMap;
+  /** 副词条理论上限，按部位，作评分分母 */
+  subMax: SubMaxMap;
 }
 
 /** score.json 全量：角色 id -> 配置 */

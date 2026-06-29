@@ -5,7 +5,7 @@
 
 仓库产出两样东西：
 
-1. **`score.json`** —— 每个角色每个部位的评分配置（`main` / `weight` / `maxV2`），后端编译时直接消费。
+1. **`score.json`** —— 每个角色每个部位的评分配置（`mainWeight` / `subWeight` / `subMax`），后端编译时直接消费。
 2. **参考评分器**（`src/score.ts`）—— 把遗器/角色折算成百分制分数的权威实现，后端据此对齐。
 
 ## 仓库内各部分关系
@@ -18,7 +18,7 @@
   └────────────┬─────────────┘            └───────────────┬──────────────┘
                └───────────────┬───────────────────────────┘
                                ▼
-                   src/generate.ts  （展开 + 推导 maxV2）
+                   src/generate.ts  （展开 + 推导 subMax）
                                ▼
                         score.json  ── 后端 StarGauge-server 消费
                                │
@@ -41,7 +41,7 @@
 | `data/subAffixValues.json` | 每角色**副词条**价值表（属性 → 0~1） | **人工**（核心资产） |
 | `data/raw/avatarConfig.json` | 角色 id / 中文名 / 命途 / 伤害属性 | 随版本更新 |
 | `data/raw/avatarRelicRecommend.json` | 推荐主词条（`PropertyList`） | 随版本更新 |
-| `src/generate.ts` | 把上述展开成 `score.json`，并推导 `maxV2` | 算法代码 |
+| `src/generate.ts` | 把上述展开成 `score.json`，并推导 `subMax` | 算法代码 |
 | `src/score.ts` | 参考评分器，实现 `docs/ALGORITHM.md` | 算法代码 |
 | `src/types.ts` | 共享类型 | 算法代码 |
 | `score.json` | 生成产物，后端消费 | 自动生成，勿手改 |
@@ -53,9 +53,9 @@
 
 `score.json` 里每个角色有三样，详见 [docs/ALGORITHM.md](docs/ALGORITHM.md)：
 
-- `main[部位][词条]`：主词条该选什么（1 最优 / 0 无价值）。
-- `weight[词条]`：副词条值多少分（0~1）。
-- `maxV2[部位]`：副词条理论上限，作评分分母（由 generate 自动推导，不手填）。
+- `mainWeight[部位][词条]`：主词条该选什么（1 最优 / 0 无价值）。
+- `subWeight[词条]`：副词条值多少分（0~1）。
+- `subMax[部位]`：副词条理论上限，作评分分母（由 generate 自动推导，不手填）。
 
 部位编号：`1` 头 / `2` 手 / `3` 身 / `4` 脚 / `5` 位面球 / `6` 连结绳。
 
@@ -78,6 +78,6 @@ npm run build      # 编译到 dist/（供后端按需引用）
 
 ## 与历史 StarRailScore 的关系
 
-生成环节（`main`/`weight`/`maxV2`）与历史 StarRailScore 的 `generate.py` 算法一致——
+生成环节（`mainWeight`/`subWeight`/`subMax`）与历史 StarRailScore 的 `generate.py` 算法一致——
 金样本①即逐字段验证两者输出相同。差异只在**评分合成**（`docs/ALGORITHM.md` 的 v1：
 去 sqrt + 主副 0.35/0.65），这部分由本仓库与后端共同拥有，不再依赖 StarRailScore。

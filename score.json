@@ -1,6 +1,6 @@
 {
     "1001": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -42,7 +42,7 @@
                 "DefenceAddedRatio": 1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0,
             "DefenceDelta": 0.3,
@@ -56,8 +56,7 @@
             "StatusResistanceBase": 0.8,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.76,
-        "maxV2": {
+        "subMax": {
             "1": 8.6,
             "2": 8.6,
             "3": 6.9,
@@ -67,7 +66,7 @@
         }
     },
     "1002": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -109,7 +108,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -123,8 +122,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.24,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -134,7 +132,7 @@
         }
     },
     "1003": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -176,7 +174,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -190,8 +188,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.14,
-        "maxV2": {
+        "subMax": {
             "1": 8.8,
             "2": 8.8,
             "3": 7.1,
@@ -201,7 +198,7 @@
         }
     },
     "1004": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -243,7 +240,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -257,8 +254,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.68,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.8,
@@ -268,7 +264,7 @@
         }
     },
     "1005": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -310,7 +306,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -324,8 +320,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.42,
-        "maxV2": {
+        "subMax": {
             "1": 8.3,
             "2": 8.1,
             "3": 6.4,
@@ -335,7 +330,7 @@
         }
     },
     "1006": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -377,7 +372,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -391,8 +386,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.48,
-        "maxV2": {
+        "subMax": {
             "1": 8.8,
             "2": 8.8,
             "3": 7.6,
@@ -402,7 +396,7 @@
         }
     },
     "1008": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -444,7 +438,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -458,8 +452,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.24,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -469,7 +462,7 @@
         }
     },
     "1009": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -511,7 +504,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -525,8 +518,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.64,
-        "maxV2": {
+        "subMax": {
             "1": 8.4,
             "2": 8.4,
             "3": 6.9,
@@ -536,7 +528,7 @@
         }
     },
     "1013": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -578,7 +570,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -592,8 +584,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.14,
-        "maxV2": {
+        "subMax": {
             "1": 8.8,
             "2": 8.8,
             "3": 7.1,
@@ -603,7 +594,7 @@
         }
     },
     "1014": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -645,7 +636,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -659,8 +650,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10,
-        "maxV2": {
+        "subMax": {
             "1": 8.8,
             "2": 8.8,
             "3": 7.1,
@@ -670,7 +660,7 @@
         }
     },
     "1015": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -712,7 +702,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -726,8 +716,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10,
-        "maxV2": {
+        "subMax": {
             "1": 8.8,
             "2": 8.8,
             "3": 7.1,
@@ -737,7 +726,7 @@
         }
     },
     "1101": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -779,7 +768,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0,
             "DefenceDelta": 0.1,
@@ -793,8 +782,7 @@
             "StatusResistanceBase": 0.8,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.28,
-        "maxV2": {
+        "subMax": {
             "1": 8,
             "2": 8,
             "3": 6.2,
@@ -804,7 +792,7 @@
         }
     },
     "1102": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -846,7 +834,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -860,8 +848,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.24,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -871,7 +858,7 @@
         }
     },
     "1103": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -913,7 +900,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -927,8 +914,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.4
         },
-        "max": 10.44,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.4,
@@ -938,7 +924,7 @@
         }
     },
     "1104": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -980,7 +966,7 @@
                 "DefenceAddedRatio": 1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0,
             "DefenceDelta": 0.3,
@@ -994,8 +980,7 @@
             "StatusResistanceBase": 1,
             "BreakDamageAddedRatioBase": 0
         },
-        "max": 10.14,
-        "maxV2": {
+        "subMax": {
             "1": 8.8,
             "2": 8.8,
             "3": 7.1,
@@ -1005,7 +990,7 @@
         }
     },
     "1105": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1047,7 +1032,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.3,
             "AttackDelta": 0,
             "DefenceDelta": 0,
@@ -1061,8 +1046,7 @@
             "StatusResistanceBase": 1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.42,
-        "maxV2": {
+        "subMax": {
             "1": 8.1,
             "2": 8.3,
             "3": 6.4,
@@ -1072,7 +1056,7 @@
         }
     },
     "1106": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1114,7 +1098,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -1128,8 +1112,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.84,
-        "maxV2": {
+        "subMax": {
             "1": 8.4,
             "2": 8.4,
             "3": 7.4,
@@ -1139,7 +1122,7 @@
         }
     },
     "1107": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1181,7 +1164,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -1195,8 +1178,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.76,
-        "maxV2": {
+        "subMax": {
             "1": 8.6,
             "2": 8.6,
             "3": 6.9,
@@ -1206,7 +1188,7 @@
         }
     },
     "1108": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1248,7 +1230,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -1262,8 +1244,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.18,
-        "maxV2": {
+        "subMax": {
             "1": 8.1,
             "2": 7.9,
             "3": 6.2,
@@ -1273,7 +1254,7 @@
         }
     },
     "1109": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1315,7 +1296,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -1329,8 +1310,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.24,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -1340,7 +1320,7 @@
         }
     },
     "1110": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1382,7 +1362,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.3,
             "AttackDelta": 0,
             "DefenceDelta": 0,
@@ -1396,8 +1376,7 @@
             "StatusResistanceBase": 1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.42,
-        "maxV2": {
+        "subMax": {
             "1": 8.1,
             "2": 8.3,
             "3": 6.4,
@@ -1407,7 +1386,7 @@
         }
     },
     "1111": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1449,7 +1428,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -1463,8 +1442,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.8
         },
-        "max": 9.76,
-        "maxV2": {
+        "subMax": {
             "1": 8.4,
             "2": 8.4,
             "3": 7,
@@ -1474,7 +1452,7 @@
         }
     },
     "1112": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1516,7 +1494,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -1530,8 +1508,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.24,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -1541,7 +1518,7 @@
         }
     },
     "1201": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1583,7 +1560,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -1597,8 +1574,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.24,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -1608,7 +1584,7 @@
         }
     },
     "1202": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1650,7 +1626,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0.3,
             "DefenceDelta": 0.1,
@@ -1664,8 +1640,7 @@
             "StatusResistanceBase": 0.8,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.24,
-        "maxV2": {
+        "subMax": {
             "1": 8.1,
             "2": 8,
             "3": 6.3,
@@ -1675,7 +1650,7 @@
         }
     },
     "1203": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1717,7 +1692,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0.3,
             "DefenceDelta": 0.1,
@@ -1731,8 +1706,7 @@
             "StatusResistanceBase": 0.8,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.24,
-        "maxV2": {
+        "subMax": {
             "1": 8.1,
             "2": 8,
             "3": 6.3,
@@ -1742,7 +1716,7 @@
         }
     },
     "1204": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1784,7 +1758,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -1798,8 +1772,7 @@
             "StatusResistanceBase": 0.4,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.32,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.4,
@@ -1809,7 +1782,7 @@
         }
     },
     "1205": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1851,7 +1824,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.3,
             "AttackDelta": 0,
             "DefenceDelta": 0,
@@ -1865,8 +1838,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.24,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -1876,7 +1848,7 @@
         }
     },
     "1206": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1918,7 +1890,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -1932,8 +1904,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.6
         },
-        "max": 10.48,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.6,
@@ -1943,7 +1914,7 @@
         }
     },
     "1207": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -1985,7 +1956,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -1999,8 +1970,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.38,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -2010,7 +1980,7 @@
         }
     },
     "1208": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2052,7 +2022,7 @@
                 "DefenceAddedRatio": 0.8
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.3,
             "AttackDelta": 0,
             "DefenceDelta": 0.3,
@@ -2066,8 +2036,7 @@
             "StatusResistanceBase": 1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.2,
-        "maxV2": {
+        "subMax": {
             "1": 8.8,
             "2": 8.8,
             "3": 7.2,
@@ -2077,7 +2046,7 @@
         }
     },
     "1209": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2119,7 +2088,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -2133,8 +2102,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.24,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -2144,7 +2112,7 @@
         }
     },
     "1210": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2186,7 +2154,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -2200,8 +2168,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.4
         },
-        "max": 9.42,
-        "maxV2": {
+        "subMax": {
             "1": 8.2,
             "2": 8.2,
             "3": 6.5,
@@ -2211,7 +2178,7 @@
         }
     },
     "1211": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2253,7 +2220,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.3,
             "AttackDelta": 0,
             "DefenceDelta": 0,
@@ -2267,8 +2234,7 @@
             "StatusResistanceBase": 1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.42,
-        "maxV2": {
+        "subMax": {
             "1": 8.1,
             "2": 8.3,
             "3": 6.4,
@@ -2278,7 +2244,7 @@
         }
     },
     "1212": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2320,7 +2286,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.3,
             "AttackDelta": 0,
             "DefenceDelta": 0,
@@ -2334,8 +2300,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.26,
-        "maxV2": {
+        "subMax": {
             "1": 8.9,
             "2": 8.9,
             "3": 7.2,
@@ -2345,7 +2310,7 @@
         }
     },
     "1213": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2387,7 +2352,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -2401,8 +2366,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.38,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -2412,7 +2376,7 @@
         }
     },
     "1214": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2454,7 +2418,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -2468,8 +2432,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 1
         },
-        "max": 10.64,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.8,
@@ -2479,7 +2442,7 @@
         }
     },
     "1215": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2521,7 +2484,7 @@
                 "DefenceAddedRatio": 0.6
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0,
             "DefenceDelta": 0.1,
@@ -2535,8 +2498,7 @@
             "StatusResistanceBase": 0.8,
             "BreakDamageAddedRatioBase": 0.4
         },
-        "max": 8.52,
-        "maxV2": {
+        "subMax": {
             "1": 7.4,
             "2": 7.4,
             "3": 6.4,
@@ -2546,7 +2508,7 @@
         }
     },
     "1217": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2588,7 +2550,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.3,
             "AttackDelta": 0,
             "DefenceDelta": 0,
@@ -2602,8 +2564,7 @@
             "StatusResistanceBase": 1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.42,
-        "maxV2": {
+        "subMax": {
             "1": 8.1,
             "2": 8.3,
             "3": 6.4,
@@ -2613,7 +2574,7 @@
         }
     },
     "1218": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2655,7 +2616,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -2669,8 +2630,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.42,
-        "maxV2": {
+        "subMax": {
             "1": 8.3,
             "2": 8.1,
             "3": 6.4,
@@ -2680,7 +2640,7 @@
         }
     },
     "1220": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2722,7 +2682,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -2736,8 +2696,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.24,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -2747,7 +2706,7 @@
         }
     },
     "1221": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2789,7 +2748,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -2803,8 +2762,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.9,
-        "maxV2": {
+        "subMax": {
             "1": 8.6,
             "2": 8.6,
             "3": 6.9,
@@ -2814,7 +2772,7 @@
         }
     },
     "1222": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2856,7 +2814,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0.3,
             "DefenceDelta": 0.1,
@@ -2870,8 +2828,7 @@
             "StatusResistanceBase": 0.4,
             "BreakDamageAddedRatioBase": 1
         },
-        "max": 9.52,
-        "maxV2": {
+        "subMax": {
             "1": 8.4,
             "2": 8.4,
             "3": 6.7,
@@ -2881,7 +2838,7 @@
         }
     },
     "1223": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2923,7 +2880,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -2937,8 +2894,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.14,
-        "maxV2": {
+        "subMax": {
             "1": 8.8,
             "2": 8.8,
             "3": 7.1,
@@ -2948,7 +2904,7 @@
         }
     },
     "1224": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -2990,7 +2946,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -3004,8 +2960,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.4
         },
-        "max": 10.32,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.4,
@@ -3015,7 +2970,7 @@
         }
     },
     "1225": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3057,7 +3012,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0,
             "DefenceDelta": 0.1,
@@ -3071,8 +3026,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 1
         },
-        "max": 9.52,
-        "maxV2": {
+        "subMax": {
             "1": 8.2,
             "2": 8.2,
             "3": 7.2,
@@ -3082,7 +3036,7 @@
         }
     },
     "1301": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3124,7 +3078,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0,
             "DefenceDelta": 0.1,
@@ -3138,8 +3092,7 @@
             "StatusResistanceBase": 1,
             "BreakDamageAddedRatioBase": 1
         },
-        "max": 9.52,
-        "maxV2": {
+        "subMax": {
             "1": 8.2,
             "2": 8.2,
             "3": 7.2,
@@ -3149,7 +3102,7 @@
         }
     },
     "1302": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3191,7 +3144,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -3205,8 +3158,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.38,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -3216,7 +3168,7 @@
         }
     },
     "1303": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3258,7 +3210,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0,
             "DefenceDelta": 0.1,
@@ -3272,8 +3224,7 @@
             "StatusResistanceBase": 0.4,
             "BreakDamageAddedRatioBase": 1
         },
-        "max": 8.8,
-        "maxV2": {
+        "subMax": {
             "1": 7.6,
             "2": 7.6,
             "3": 6.6,
@@ -3283,7 +3234,7 @@
         }
     },
     "1304": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3325,7 +3276,7 @@
                 "DefenceAddedRatio": 1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0,
             "DefenceDelta": 0.3,
@@ -3339,8 +3290,7 @@
             "StatusResistanceBase": 0.4,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.44,
-        "maxV2": {
+        "subMax": {
             "1": 8.6,
             "2": 8.6,
             "3": 6.6,
@@ -3350,7 +3300,7 @@
         }
     },
     "1305": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3392,7 +3342,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -3406,8 +3356,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.24,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -3417,7 +3366,7 @@
         }
     },
     "1306": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3459,7 +3408,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0,
             "DefenceDelta": 0.1,
@@ -3473,8 +3422,7 @@
             "StatusResistanceBase": 0.4,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 8.8,
-        "maxV2": {
+        "subMax": {
             "1": 7.6,
             "2": 7.6,
             "3": 5.8,
@@ -3484,7 +3432,7 @@
         }
     },
     "1307": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3526,7 +3474,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -3540,8 +3488,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.24,
-        "maxV2": {
+        "subMax": {
             "1": 8.3,
             "2": 8.1,
             "3": 6.4,
@@ -3551,7 +3498,7 @@
         }
     },
     "1308": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3593,7 +3540,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -3607,8 +3554,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10,
-        "maxV2": {
+        "subMax": {
             "1": 8.8,
             "2": 8.8,
             "3": 7.1,
@@ -3618,7 +3564,7 @@
         }
     },
     "1309": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3660,7 +3606,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0.3,
             "DefenceDelta": 0.1,
@@ -3674,8 +3620,7 @@
             "StatusResistanceBase": 0.4,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 7.08,
-        "maxV2": {
+        "subMax": {
             "1": 7.3,
             "2": 7.2,
             "3": 3.9,
@@ -3685,7 +3630,7 @@
         }
     },
     "1310": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3727,7 +3672,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.2,
             "DefenceDelta": 0,
@@ -3741,8 +3686,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 1
         },
-        "max": 8.8,
-        "maxV2": {
+        "subMax": {
             "1": 7.8,
             "2": 7.7,
             "3": 6.3,
@@ -3752,7 +3696,7 @@
         }
     },
     "1312": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3794,7 +3738,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -3808,8 +3752,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10,
-        "maxV2": {
+        "subMax": {
             "1": 8.8,
             "2": 8.8,
             "3": 7.1,
@@ -3819,7 +3762,7 @@
         }
     },
     "1313": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3861,7 +3804,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0,
             "DefenceDelta": 0.1,
@@ -3875,8 +3818,7 @@
             "StatusResistanceBase": 0.4,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 8.8,
-        "maxV2": {
+        "subMax": {
             "1": 7.6,
             "2": 7.6,
             "3": 5.8,
@@ -3886,7 +3828,7 @@
         }
     },
     "1314": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3928,7 +3870,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -3942,8 +3884,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.14,
-        "maxV2": {
+        "subMax": {
             "1": 8.8,
             "2": 8.8,
             "3": 7.1,
@@ -3953,7 +3894,7 @@
         }
     },
     "1315": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -3995,7 +3936,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.2,
             "DefenceDelta": 0,
@@ -4009,8 +3950,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 1
         },
-        "max": 9.68,
-        "maxV2": {
+        "subMax": {
             "1": 8.2,
             "2": 8.2,
             "3": 7.2,
@@ -4020,7 +3960,7 @@
         }
     },
     "1317": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4062,7 +4002,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.2,
             "DefenceDelta": 0,
@@ -4076,8 +4016,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 1
         },
-        "max": 8.8,
-        "maxV2": {
+        "subMax": {
             "1": 7.8,
             "2": 7.7,
             "3": 6.3,
@@ -4087,7 +4026,7 @@
         }
     },
     "1321": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4129,7 +4068,7 @@
                 "DefenceAddedRatio": 0.2
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0,
             "DefenceDelta": 0.1,
@@ -4143,8 +4082,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 1
         },
-        "max": 8.48,
-        "maxV2": {
+        "subMax": {
             "1": 7.4,
             "2": 7.4,
             "3": 6.3,
@@ -4154,7 +4092,7 @@
         }
     },
     "1401": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4196,7 +4134,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -4210,8 +4148,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.38,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -4221,7 +4158,7 @@
         }
     },
     "1402": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4263,7 +4200,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -4277,8 +4214,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.38,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -4288,7 +4224,7 @@
         }
     },
     "1403": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4330,7 +4266,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.3,
             "AttackDelta": 0,
             "DefenceDelta": 0,
@@ -4344,8 +4280,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.66,
-        "maxV2": {
+        "subMax": {
             "1": 8.4,
             "2": 8.4,
             "3": 6.7,
@@ -4355,7 +4290,7 @@
         }
     },
     "1404": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4397,7 +4332,7 @@
                 "DefenceAddedRatio": 0
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.3,
             "AttackDelta": 0,
             "DefenceDelta": 0,
@@ -4411,8 +4346,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.12,
-        "maxV2": {
+        "subMax": {
             "1": 8.9,
             "2": 8.9,
             "3": 7.2,
@@ -4422,7 +4356,7 @@
         }
     },
     "1405": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4464,7 +4398,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -4478,8 +4412,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.38,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -4489,7 +4422,7 @@
         }
     },
     "1406": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4531,7 +4464,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.2,
             "DefenceDelta": 0,
@@ -4545,8 +4478,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 8.72,
-        "maxV2": {
+        "subMax": {
             "1": 7.8,
             "2": 7.8,
             "3": 6.4,
@@ -4556,7 +4488,7 @@
         }
     },
     "1407": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4598,7 +4530,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.3,
             "AttackDelta": 0,
             "DefenceDelta": 0,
@@ -4612,8 +4544,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.24,
-        "maxV2": {
+        "subMax": {
             "1": 8.1,
             "2": 8.3,
             "3": 6.4,
@@ -4623,7 +4554,7 @@
         }
     },
     "1408": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4665,7 +4596,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -4679,8 +4610,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.24,
-        "maxV2": {
+        "subMax": {
             "1": 8.3,
             "2": 8.1,
             "3": 6.4,
@@ -4690,7 +4620,7 @@
         }
     },
     "1409": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4732,7 +4662,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.3,
             "AttackDelta": 0,
             "DefenceDelta": 0,
@@ -4746,8 +4676,7 @@
             "StatusResistanceBase": 0.4,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.18,
-        "maxV2": {
+        "subMax": {
             "1": 8,
             "2": 8,
             "3": 6.3,
@@ -4757,7 +4686,7 @@
         }
     },
     "1410": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4799,7 +4728,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -4813,8 +4742,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.42,
-        "maxV2": {
+        "subMax": {
             "1": 8.3,
             "2": 8.1,
             "3": 6.4,
@@ -4824,7 +4752,7 @@
         }
     },
     "1412": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4866,7 +4794,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -4880,8 +4808,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.18,
-        "maxV2": {
+        "subMax": {
             "1": 8.1,
             "2": 7.9,
             "3": 6.2,
@@ -4891,7 +4818,7 @@
         }
     },
     "1413": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -4933,7 +4860,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.3,
             "AttackDelta": 0,
             "DefenceDelta": 0,
@@ -4947,8 +4874,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.24,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -4958,7 +4884,7 @@
         }
     },
     "1414": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5000,7 +4926,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -5014,8 +4940,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 8.34,
-        "maxV2": {
+        "subMax": {
             "1": 7.4,
             "2": 7.2,
             "3": 5.5,
@@ -5025,7 +4950,7 @@
         }
     },
     "1415": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5067,7 +4992,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.3,
             "AttackDelta": 0,
             "DefenceDelta": 0,
@@ -5081,8 +5006,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.44,
-        "maxV2": {
+        "subMax": {
             "1": 8.4,
             "2": 8.4,
             "3": 6.9,
@@ -5092,7 +5016,7 @@
         }
     },
     "1501": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5134,7 +5058,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -5148,8 +5072,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.66,
-        "maxV2": {
+        "subMax": {
             "1": 8.4,
             "2": 8.4,
             "3": 6.7,
@@ -5159,7 +5082,7 @@
         }
     },
     "1502": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5201,7 +5124,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0,
             "DefenceDelta": 0,
@@ -5215,8 +5138,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 8.08,
-        "maxV2": {
+        "subMax": {
             "1": 7.3,
             "2": 7.3,
             "3": 5.8,
@@ -5226,7 +5148,7 @@
         }
     },
     "1504": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5268,7 +5190,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -5282,8 +5204,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.38,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -5293,7 +5214,7 @@
         }
     },
     "1505": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5335,7 +5256,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.1,
             "DefenceDelta": 0,
@@ -5349,8 +5270,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.66,
-        "maxV2": {
+        "subMax": {
             "1": 8.4,
             "2": 8.4,
             "3": 6.5,
@@ -5360,7 +5280,7 @@
         }
     },
     "1506": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5402,7 +5322,7 @@
                 "DefenceAddedRatio": 1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0,
             "DefenceDelta": 0.1,
@@ -5416,8 +5336,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.52,
-        "maxV2": {
+        "subMax": {
             "1": 8.2,
             "2": 8.2,
             "3": 6.4,
@@ -5427,7 +5346,7 @@
         }
     },
     "8001": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5469,7 +5388,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -5483,8 +5402,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.24,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -5494,7 +5412,7 @@
         }
     },
     "8002": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5536,7 +5454,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -5550,8 +5468,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 10.24,
-        "maxV2": {
+        "subMax": {
             "1": 9,
             "2": 9,
             "3": 7.3,
@@ -5561,7 +5478,7 @@
         }
     },
     "8003": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5603,7 +5520,7 @@
                 "DefenceAddedRatio": 1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0,
             "DefenceDelta": 0.3,
@@ -5617,8 +5534,7 @@
             "StatusResistanceBase": 1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.76,
-        "maxV2": {
+        "subMax": {
             "1": 8.6,
             "2": 8.6,
             "3": 6.9,
@@ -5628,7 +5544,7 @@
         }
     },
     "8004": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5670,7 +5586,7 @@
                 "DefenceAddedRatio": 1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0,
             "DefenceDelta": 0.3,
@@ -5684,8 +5600,7 @@
             "StatusResistanceBase": 1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.76,
-        "maxV2": {
+        "subMax": {
             "1": 8.6,
             "2": 8.6,
             "3": 6.9,
@@ -5695,7 +5610,7 @@
         }
     },
     "8005": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5737,7 +5652,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0,
             "DefenceDelta": 0.1,
@@ -5751,8 +5666,7 @@
             "StatusResistanceBase": 0.4,
             "BreakDamageAddedRatioBase": 1
         },
-        "max": 8.8,
-        "maxV2": {
+        "subMax": {
             "1": 7.6,
             "2": 7.6,
             "3": 6.6,
@@ -5762,7 +5676,7 @@
         }
     },
     "8006": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5804,7 +5718,7 @@
                 "DefenceAddedRatio": 0.4
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0.1,
             "AttackDelta": 0,
             "DefenceDelta": 0.1,
@@ -5818,8 +5732,7 @@
             "StatusResistanceBase": 0.4,
             "BreakDamageAddedRatioBase": 1
         },
-        "max": 8.8,
-        "maxV2": {
+        "subMax": {
             "1": 7.6,
             "2": 7.6,
             "3": 6.6,
@@ -5829,7 +5742,7 @@
         }
     },
     "8007": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5871,7 +5784,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -5885,8 +5798,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.36,
-        "maxV2": {
+        "subMax": {
             "1": 8.1,
             "2": 7.9,
             "3": 6.2,
@@ -5896,7 +5808,7 @@
         }
     },
     "8008": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -5938,7 +5850,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -5952,8 +5864,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.36,
-        "maxV2": {
+        "subMax": {
             "1": 8.1,
             "2": 7.9,
             "3": 6.2,
@@ -5963,7 +5874,7 @@
         }
     },
     "8009": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -6005,7 +5916,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -6019,8 +5930,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.06,
-        "maxV2": {
+        "subMax": {
             "1": 8,
             "2": 8,
             "3": 6.5,
@@ -6030,7 +5940,7 @@
         }
     },
     "8010": {
-        "main": {
+        "mainWeight": {
             "1": {
                 "HPDelta": 1
             },
@@ -6072,7 +5982,7 @@
                 "DefenceAddedRatio": 0.1
             }
         },
-        "weight": {
+        "subWeight": {
             "HPDelta": 0,
             "AttackDelta": 0.3,
             "DefenceDelta": 0,
@@ -6086,8 +5996,7 @@
             "StatusResistanceBase": 0.1,
             "BreakDamageAddedRatioBase": 0.1
         },
-        "max": 9.06,
-        "maxV2": {
+        "subMax": {
             "1": 8,
             "2": 8,
             "3": 6.5,

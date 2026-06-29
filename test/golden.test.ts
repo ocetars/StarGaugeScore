@@ -20,13 +20,19 @@ describe("生成对齐（金样本①）", () => {
     }
   });
 
-  it("每个角色结构完整：main 六部位 / weight / maxV2 六部位", () => {
+  it("每个角色结构完整：mainWeight 六部位 / subWeight / subMax 六部位", () => {
     for (const [id, cfg] of Object.entries(committed)) {
       for (const part of ["1", "2", "3", "4", "5", "6"]) {
-        expect(cfg.main[part as keyof typeof cfg.main], `${id} 缺 main[${part}]`).toBeDefined();
-        expect(typeof cfg.maxV2[part as keyof typeof cfg.maxV2], `${id} 缺 maxV2[${part}]`).toBe("number");
+        expect(
+          cfg.mainWeight[part as keyof typeof cfg.mainWeight],
+          `${id} 缺 mainWeight[${part}]`,
+        ).toBeDefined();
+        expect(
+          typeof cfg.subMax[part as keyof typeof cfg.subMax],
+          `${id} 缺 subMax[${part}]`,
+        ).toBe("number");
       }
-      expect(cfg.weight).toBeTruthy();
+      expect(cfg.subWeight).toBeTruthy();
     }
   });
 });
@@ -49,7 +55,7 @@ describe("参考评分器（金样本②）", () => {
     const r = scoreRelic(relic, xiadie);
     expect(r.mainScore).toBeCloseTo(1, 10);
     expect(r.subRawScore).toBeCloseTo(5.4, 10); // 5×1 + 1×0.1 + 1×0.3
-    expect(r.subScore).toBeCloseTo(5.4 / 6.4, 10); // maxV2[3]=6.4
+    expect(r.subScore).toBeCloseTo(5.4 / 6.4, 10); // subMax[3]=6.4
     expect(r.score).toBeCloseTo(0.8984375, 10); // 0.35×1 + 0.65×subScore
     expect(r.subDetails.find((d) => d.type === "AttackAddedRatio")).toBeUndefined();
   });
@@ -59,7 +65,7 @@ describe("参考评分器（金样本②）", () => {
       part: "3",
       mainType: "CriticalDamageBase",
       level: 15,
-      subAffixes: [{ type: "CriticalChanceBase", count: 9 }], // 9 > maxV2[3]=6.4
+      subAffixes: [{ type: "CriticalChanceBase", count: 9 }], // 9 > subMax[3]=6.4
     };
     const r = scoreRelic(relic, xiadie);
     expect(r.subScore).toBe(1); // 封顶

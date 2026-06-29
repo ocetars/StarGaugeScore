@@ -7,7 +7,7 @@
  * 与历史算法的差异（见 docs/ALGORITHM.md）：
  * - 去掉对遗器分的开方（sqrt），分数线性反映真实价值，高分段区分度更高；
  * - 主副词条按 0.35 / 0.65 加权（副词条主导），主词条更接近「门槛」定位。
- * 原材料 main / weight / maxV2 的语义不变。
+ * 原材料 mainWeight / subWeight / subMax 的语义不变。
  */
 import { PartId, RelicInput, ScoreConfigItem } from "./types";
 
@@ -30,7 +30,7 @@ export interface RelicScore {
   part: PartId;
   /** 主词条得分 0~1 */
   mainScore: number;
-  /** 副词条得分 0~1（已对 maxV2 归一） */
+  /** 副词条得分 0~1（已对 subMax 归一） */
   subScore: number;
   /** 副词条原始累加分（未归一） */
   subRawScore: number;
@@ -52,24 +52,24 @@ export interface CharacterScore {
 
 /** 主词条得分：随等级线性逼近其在该部位的价值 */
 function computeMainScore(relic: RelicInput, config: ScoreConfigItem): number {
-  const weight = config.main[relic.part]?.[relic.mainType] ?? 0;
+  const weight = config.mainWeight[relic.part]?.[relic.mainType] ?? 0;
   if (!(weight > 0)) return 0;
   const normalizedLevel = Math.min(Math.max((relic.level + 1) / 16, 0), 1);
   return normalizedLevel * weight;
 }
 
-/** 副词条得分：各词条 count×权重 累加后，对该部位 maxV2 归一 */
+/** 副词条得分：各词条 count×权重 累加后，对该部位 subMax 归一 */
 function computeSubScore(
   relic: RelicInput,
   config: ScoreConfigItem,
 ): { score: number; rawScore: number; details: SubScoreDetail[] } {
-  const maxScore = config.maxV2?.[relic.part] ?? 0;
+  const maxScore = config.subMax?.[relic.part] ?? 0;
   const details: SubScoreDetail[] = [];
   if (!(maxScore > 0)) return { score: 0, rawScore: 0, details };
 
   let rawScore = 0;
   for (const sub of relic.subAffixes) {
-    const weight = config.weight?.[sub.type] ?? 0;
+    const weight = config.subWeight?.[sub.type] ?? 0;
     if (!(weight > 0) || !(sub.count > 0)) continue;
     const deltaScore = sub.count * weight;
     rawScore += deltaScore;
