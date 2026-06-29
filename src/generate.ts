@@ -1,8 +1,8 @@
 /**
  * 评分配置生成器
  *
- * 把人工维护的属性价值表（mainAffixValues / subAffixValues）+ 游戏数据
- * （avatarConfig / avatarRelicRecommend）展开成后端消费的 score.json
+ * 把人工维护的属性价值表（mainAffixValues / subAffixValues）+ 角色基础数据
+ * （avatarConfig）展开成后端消费的 score.json
  * （每角色 mainWeight / subWeight / subMax）。
  */
 import fs from "fs";
@@ -10,7 +10,6 @@ import path from "path";
 import {
   AffixValueRow,
   AvatarConfig,
-  AvatarRelicRecommend,
   PartId,
   ScoreConfigItem,
   ScoreMap,
@@ -19,16 +18,6 @@ import {
 const DATA_DIR = path.resolve(__dirname, "../data");
 
 const PART_IDS: PartId[] = ["1", "2", "3", "4", "5", "6"];
-
-// 游戏部位字符串 -> 部位编号
-const TYPE_MAP: Record<string, PartId> = {
-  HEAD: "1",
-  HAND: "2",
-  BODY: "3",
-  FOOT: "4",
-  NECK: "5",
-  OBJECT: "6",
-};
 
 // 角色伤害属性 -> 对应的位面球伤害加成词条 key
 const DAMAGE_TYPE_TO_SPHERE: Record<string, string> = {
@@ -242,9 +231,6 @@ function computeSubMax(config: ScoreConfigItem): void {
 /** 主流程：读取 data/ 生成 ScoreMap */
 export function generateScoreMap(): ScoreMap {
   const avatars = readJson<AvatarConfig[]>("raw/avatarConfig.json");
-  const recommends = readJson<AvatarRelicRecommend[]>(
-    "raw/avatarRelicRecommend.json",
-  );
   const mainValues = readJson<AffixValueRow[]>("mainAffixValues.json");
   const subValues = readJson<AffixValueRow[]>("subAffixValues.json");
 
@@ -258,15 +244,6 @@ export function generateScoreMap(): ScoreMap {
   for (const avatar of avatars) {
     const id = avatar.id;
     const config = makeInitConfig();
-
-    // 推荐主词条：PropertyList 指定的部位主词条价值置 1
-    const recommend = byId(recommends, id);
-    if (recommend?.PropertyList) {
-      for (const prop of recommend.PropertyList) {
-        const part = TYPE_MAP[prop.RelicType];
-        if (part) config.mainWeight[part][prop.PropertyType] = 1;
-      }
-    }
 
     const mainRow = byId(mainValues, id);
     if (mainRow) fillMainWeight(config, mainRow, avatar.damageType);

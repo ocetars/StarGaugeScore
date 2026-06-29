@@ -62,20 +62,6 @@ export interface AffixValueRow {
   HealRatio?: number;
 }
 
-/** 推荐主词条项（来自游戏推荐数据） */
-export interface RelicRecommendProperty {
-  RelicType: "HEAD" | "HAND" | "BODY" | "FOOT" | "NECK" | "OBJECT";
-  PropertyType: string;
-}
-
-/** 角色推荐数据（只用到 PropertyList） */
-export interface AvatarRelicRecommend {
-  AvatarID: number;
-  PropertyList: RelicRecommendProperty[];
-}
-
-// ── 评分器输入 ─────────────────────────────────────────────────────────
-
 /** 单条副词条 */
 export interface SubAffixInput {
   /** 词条 key，如 CriticalDamageBase */

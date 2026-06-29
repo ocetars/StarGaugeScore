@@ -11,10 +11,10 @@
 ## 仓库内各部分关系
 
 ```
-  人工维护（评分判断的核心资产）            游戏数据（随版本更新，非判断）
+  人工维护（评分判断的核心资产）            角色基础数据（随版本更新，非判断）
   ┌─────────────────────────┐            ┌──────────────────────────────┐
   │ data/mainAffixValues.json│            │ data/raw/avatarConfig.json     │
-  │ data/subAffixValues.json │            │ data/raw/avatarRelicRecommend  │
+  │ data/subAffixValues.json │            │ （id/名字/命途/伤害属性）       │
   └────────────┬─────────────┘            └───────────────┬──────────────┘
                └───────────────┬───────────────────────────┘
                                ▼
@@ -40,7 +40,6 @@
 | `data/mainAffixValues.json` | 每角色**主词条**价值表（属性 → 0~1） | **人工**（核心资产） |
 | `data/subAffixValues.json` | 每角色**副词条**价值表（属性 → 0~1） | **人工**（核心资产） |
 | `data/raw/avatarConfig.json` | 角色 id / 中文名 / 命途 / 伤害属性 | 随版本更新 |
-| `data/raw/avatarRelicRecommend.json` | 推荐主词条（`PropertyList`） | 随版本更新 |
 | `src/generate.ts` | 把上述展开成 `score.json`，并推导 `subMax` | 算法代码 |
 | `src/score.ts` | 参考评分器，实现 `docs/ALGORITHM.md` | 算法代码 |
 | `src/types.ts` | 共享类型 | 算法代码 |
