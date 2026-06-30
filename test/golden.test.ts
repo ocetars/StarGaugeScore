@@ -38,7 +38,20 @@ describe("生成对齐（金样本①）", () => {
 });
 
 describe("参考评分器（金样本②）", () => {
-  const xiadie = committed["1407"] as ScoreConfigItem; // 遐蝶
+  // 固定合成配置：把评分器算术与「活」的角色数据解耦——重做某角色不应撼动评分器回归。
+  // 角色数据正确性由金样本①（generate 与 committed 全字段对齐）守护，这里只测算法本身。
+  const fixedCfg = {
+    mainWeight: {
+      "1": { HPDelta: 1 },
+      "2": { AttackDelta: 1 },
+      "3": { CriticalDamageBase: 1 },
+      "4": { HPAddedRatio: 1 },
+      "5": { HPAddedRatio: 1 },
+      "6": { HPAddedRatio: 1 },
+    },
+    subWeight: { CriticalChanceBase: 1, SpeedDelta: 0.1, HPDelta: 0.3 },
+    subMax: { "1": 6.4, "2": 6.4, "3": 6.4, "4": 6.4, "5": 6.4, "6": 6.4 },
+  } as unknown as ScoreConfigItem;
 
   it("正常身件：主词条对 + 双暴副词条", () => {
     const relic: RelicInput = {
@@ -47,12 +60,12 @@ describe("参考评分器（金样本②）", () => {
       level: 15,
       subAffixes: [
         { type: "CriticalChanceBase", count: 5 },
-        { type: "AttackAddedRatio", count: 2 }, // 遐蝶攻击权重 0，应被忽略
+        { type: "AttackAddedRatio", count: 2 }, // 攻击权重 0，应被忽略
         { type: "SpeedDelta", count: 1 },
         { type: "HPDelta", count: 1 },
       ],
     };
-    const r = scoreRelic(relic, xiadie);
+    const r = scoreRelic(relic, fixedCfg);
     expect(r.mainScore).toBeCloseTo(1, 10);
     expect(r.subRawScore).toBeCloseTo(5.4, 10); // 5×1 + 1×0.1 + 1×0.3
     expect(r.subScore).toBeCloseTo(5.4 / 6.4, 10); // subMax[3]=6.4
@@ -67,7 +80,7 @@ describe("参考评分器（金样本②）", () => {
       level: 15,
       subAffixes: [{ type: "CriticalChanceBase", count: 9 }], // 9 > subMax[3]=6.4
     };
-    const r = scoreRelic(relic, xiadie);
+    const r = scoreRelic(relic, fixedCfg);
     expect(r.subScore).toBe(1); // 封顶
     expect(r.score).toBeCloseTo(1, 10); // 0.35 + 0.65
   });
@@ -75,11 +88,11 @@ describe("参考评分器（金样本②）", () => {
   it("主词条错 + 副词条全无价值 → 0 分", () => {
     const relic: RelicInput = {
       part: "3",
-      mainType: "AttackAddedRatio", // 遐蝶身件攻击权重为 0
+      mainType: "AttackAddedRatio", // 身件攻击权重为 0
       level: 15,
       subAffixes: [{ type: "DefenceDelta", count: 6 }], // 防御小词条权重 0
     };
-    const r = scoreRelic(relic, xiadie);
+    const r = scoreRelic(relic, fixedCfg);
     expect(r.mainScore).toBe(0);
     expect(r.subScore).toBe(0);
     expect(r.score).toBe(0);
@@ -92,7 +105,7 @@ describe("参考评分器（金样本②）", () => {
       level: 0,
       subAffixes: [],
     };
-    const r = scoreRelic(relic, xiadie);
+    const r = scoreRelic(relic, fixedCfg);
     expect(r.mainScore).toBeCloseTo(1 / 16, 10);
   });
 
@@ -103,9 +116,9 @@ describe("参考评分器（金样本②）", () => {
       level: 15,
       subAffixes: [{ type: "CriticalChanceBase", count: 5 }],
     };
-    const c = scoreCharacter([oneRelic], xiadie);
+    const c = scoreCharacter([oneRelic], fixedCfg);
     expect(c.missingParts).toEqual(["2", "3", "4", "5", "6"]);
-    const single = scoreRelic(oneRelic, xiadie).score;
+    const single = scoreRelic(oneRelic, fixedCfg).score;
     expect(c.score).toBeCloseTo(single / 6, 10);
     expect(c.percent).toBeCloseTo(Math.round((single / 6) * 10000) / 100, 6);
   });
@@ -120,7 +133,7 @@ describe("参考评分器（金样本②）", () => {
       { part: "5", mainType: "HPAddedRatio", level: 15, subAffixes: perfectSub },
       { part: "6", mainType: "HPAddedRatio", level: 15, subAffixes: perfectSub },
     ];
-    const c = scoreCharacter(relics, xiadie);
+    const c = scoreCharacter(relics, fixedCfg);
     expect(c.percent).toBe(100);
   });
 });

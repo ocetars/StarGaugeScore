@@ -486,6 +486,12 @@
     "damageType": "Imaginary"
   },
   {
+    "id": "1507",
+    "name": "千冶•刃",
+    "path": "Warlock",
+    "damageType": "Fire"
+  },
+  {
     "id": "8001",
     "name": "{NICKNAME}",
     "path": "Warrior",

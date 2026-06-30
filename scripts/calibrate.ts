@@ -81,15 +81,19 @@ function main(): void {
       continue;
     }
     const relics = toRelicInputs(row.relics);
-    // 无遗器：生产中算 0 分，计入分布
-    if (!relics.length) emptyRelics++;
+    // 无遗器 = 该角色未练度，不是「构筑」，排除出评级标定人群
+    // （生产中它仍算 0 分进 ZERO；标定门槛只描述真实构筑的好坏，不被未练角色拽低）
+    if (!relics.length) {
+      emptyRelics++;
+      continue;
+    }
     percents.push(scoreCharacter(relics, cfg).percent);
   }
 
   percents.sort((a, b) => a - b);
   const n = percents.length;
   console.log(
-    `样本数: ${n}（无配置排除 ${noConfig}，其中无遗器计 0 分 ${emptyRelics}，解析失败 ${parseFail}）`,
+    `样本数: ${n}（无配置排除 ${noConfig}，无遗器排除 ${emptyRelics}，解析失败 ${parseFail}）`,
   );
   console.log(
     `分布: min=${percents[0].toFixed(2)} p25=${quantile(percents, 0.25).toFixed(2)} ` +
