@@ -592,7 +592,7 @@
     "AvatarID": 1506,
     "HP": 0.25,
     "Defence": 0.25,
-    "Speed": 1,
+    "Speed": 0.5,
     "CriticalChance": 1,
     "CriticalDamage": 1
   },
