@@ -5092,22 +5092,22 @@
             "3": {
                 "HPAddedRatio": 1,
                 "AttackAddedRatio": 0,
-                "DefenceAddedRatio": 0.5,
+                "DefenceAddedRatio": 0,
                 "CriticalChanceBase": 1,
-                "CriticalDamageBase": 0.75,
+                "CriticalDamageBase": 1,
                 "HealRatioBase": 0,
                 "StatusProbabilityBase": 0
             },
             "4": {
                 "HPAddedRatio": 1,
                 "AttackAddedRatio": 0,
-                "DefenceAddedRatio": 0.5,
+                "DefenceAddedRatio": 0,
                 "SpeedDelta": 1
             },
             "5": {
                 "HPAddedRatio": 1,
                 "AttackAddedRatio": 0,
-                "DefenceAddedRatio": 0.5,
+                "DefenceAddedRatio": 0,
                 "PhysicalAddedRatio": 0,
                 "FireAddedRatio": 0,
                 "IceAddedRatio": 0,
@@ -5121,30 +5121,30 @@
                 "SPRatioBase": 1,
                 "HPAddedRatio": 1,
                 "AttackAddedRatio": 0,
-                "DefenceAddedRatio": 0.5
+                "DefenceAddedRatio": 0
             }
         },
         "subWeight": {
-            "HPDelta": 0.1,
+            "HPDelta": 0.3,
             "AttackDelta": 0,
-            "DefenceDelta": 0.1,
-            "HPAddedRatio": 0.25,
+            "DefenceDelta": 0,
+            "HPAddedRatio": 1,
             "AttackAddedRatio": 0,
-            "DefenceAddedRatio": 0.25,
-            "SpeedDelta": 1,
-            "CriticalChanceBase": 0.75,
-            "CriticalDamageBase": 0.75,
+            "DefenceAddedRatio": 0,
+            "SpeedDelta": 0.75,
+            "CriticalChanceBase": 1,
+            "CriticalDamageBase": 1,
             "StatusProbabilityBase": 0,
-            "StatusResistanceBase": 0.25,
+            "StatusResistanceBase": 0,
             "BreakDamageAddedRatioBase": 0
         },
         "subMax": {
-            "1": 7.75,
-            "2": 7.75,
-            "3": 6.75,
-            "4": 6.75,
-            "5": 6.75,
-            "6": 6.75
+            "1": 8.75,
+            "2": 8.75,
+            "3": 7.05,
+            "4": 7.05,
+            "5": 7.05,
+            "6": 7.75
         }
     },
     "1504": {

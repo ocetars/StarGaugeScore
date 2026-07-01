@@ -603,10 +603,9 @@
   {
     "AvatarID": 1502,
     "HP": 1,
-    "Defence": 0.5,
     "Speed": 1,
     "CriticalChance": 1,
-    "CriticalDamage": 0.75,
+    "CriticalDamage": 1,
     "SPRatio": 1
   },
   {
