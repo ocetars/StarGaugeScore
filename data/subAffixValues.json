@@ -602,6 +602,27 @@
     "CriticalDamage": 1
   },
   {
+    "AvatarID": 1508,
+    "Attack": 0.75,
+    "Speed": 0.5,
+    "CriticalChance": 1,
+    "CriticalDamage": 1
+  },
+  {
+    "AvatarID": 1509,
+    "Attack": 0.75,
+    "Speed": 0.25,
+    "CriticalChance": 1,
+    "CriticalDamage": 1
+  },
+  {
+    "AvatarID": 1510,
+    "Attack": 0.75,
+    "Speed": 0.25,
+    "CriticalChance": 1,
+    "CriticalDamage": 1
+  },
+  {
     "AvatarID": 8001,
     "Attack": 0.75,
     "Speed": 0.5,

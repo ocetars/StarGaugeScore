@@ -492,6 +492,24 @@
     "damageType": "Fire"
   },
   {
+    "id": "1508",
+    "name": "远坂凛",
+    "path": "Mage",
+    "damageType": "Quantum"
+  },
+  {
+    "id": "1509",
+    "name": "吉尔伽美什",
+    "path": "Warrior",
+    "damageType": "Thunder"
+  },
+  {
+    "id": "1510",
+    "name": "姬子•启行",
+    "path": "Mage",
+    "damageType": "Fire"
+  },
+  {
     "id": "8001",
     "name": "{NICKNAME}",
     "path": "Warrior",
