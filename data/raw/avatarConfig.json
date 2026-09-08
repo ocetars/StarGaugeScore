@@ -510,6 +510,18 @@
     "damageType": "Fire"
   },
   {
+    "id": "1512",
+    "name": "知更鸟•晴歌",
+    "path": "Memory",
+    "damageType": "Wind"
+  },
+  {
+    "id": "1513",
+    "name": "砂金•戏浪",
+    "path": "Elation",
+    "damageType": "Quantum"
+  },
+  {
     "id": "8001",
     "name": "{NICKNAME}",
     "path": "Warrior",

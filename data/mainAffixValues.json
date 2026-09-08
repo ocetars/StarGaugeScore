@@ -736,5 +736,22 @@
     "Attack": 1,
     "Speed": 1,
     "SPRatio": 1
+  },
+  {
+    "AvatarID": 1512,
+    "HP": 1,
+    "Speed": 1,
+    "CriticalChance": 0.5,
+    "CriticalDamage": 0.5,
+    "SPRatio": 1
+  },
+  {
+    "AvatarID": 1513,
+    "Attack": 1,
+    "Speed": 1,
+    "CriticalChance": 1,
+    "CriticalDamage": 1,
+    "DamageAddedRatio": 0.5,
+    "SPRatio": 1
   }
 ]
