@@ -1,7 +1,7 @@
 /**
  * 评分相关类型定义
  *
- * 词条 key 沿用游戏内部命名（StarRailRes / SDK 同款），如 CriticalChanceBase、
+ * 词条 key 沿用 SDK 内部命名，如 CriticalChanceBase、
  * AttackAddedRatio、HPDelta。部位用 1~6 表示 头/手/身/脚/位面球/连结绳。
  */
 
