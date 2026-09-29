@@ -574,6 +574,13 @@
     "CriticalDamage": 1
   },
   {
+    "AvatarID": 1503,
+    "Defence": 1,
+    "Speed": 0.75,
+    "HP": 0.25,
+    "StatusResistance": 0.25
+  },
+  {
     "AvatarID": 1504,
     "Attack": 0.75,
     "Speed": 0.5,

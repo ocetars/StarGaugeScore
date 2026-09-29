@@ -468,6 +468,12 @@
     "damageType": "Physical"
   },
   {
+    "id": "1503",
+    "name": "真珠",
+    "path": "Elation",
+    "damageType": "Ice"
+  },
+  {
     "id": "1504",
     "name": "不死途",
     "path": "Rogue",
