@@ -516,6 +516,12 @@
     "damageType": "Fire"
   },
   {
+    "id": "1511",
+    "name": "星神★阿哈",
+    "path": "Elation",
+    "damageType": "Quantum"
+  },
+  {
     "id": "1512",
     "name": "知更鸟•晴歌",
     "path": "Memory",

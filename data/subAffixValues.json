@@ -630,6 +630,28 @@
     "CriticalDamage": 1
   },
   {
+    "AvatarID": 1511,
+    "HP": 0.25,
+    "Defence": 0.25,
+    "Speed": 0.75,
+    "CriticalChance": 0.75,
+    "CriticalDamage": 0.75
+  },
+  {
+    "AvatarID": 1512,
+    "HP": 0.75,
+    "Speed": 0.75,
+    "CriticalChance": 0.25,
+    "CriticalDamage": 0.25
+  },
+  {
+    "AvatarID": 1513,
+    "Attack": 0.5,
+    "Speed": 0.75,
+    "CriticalChance": 0.75,
+    "CriticalDamage": 0.75
+  },
+  {
     "AvatarID": 8001,
     "Attack": 0.75,
     "Speed": 0.5,
@@ -700,19 +722,5 @@
     "HP": 0.25,
     "Defence": 0.25,
     "Speed": 0.75
-  },
-  {
-    "AvatarID": 1512,
-    "HP": 0.75,
-    "Speed": 0.75,
-    "CriticalChance": 0.25,
-    "CriticalDamage": 0.25
-  },
-  {
-    "AvatarID": 1513,
-    "Attack": 0.5,
-    "Speed": 0.75,
-    "CriticalChance": 0.75,
-    "CriticalDamage": 0.75
   }
 ]
